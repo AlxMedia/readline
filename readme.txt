@@ -2,7 +2,7 @@
 Contributors: alxmedia
 Requires at least: 5.0
 Tested up to: 5.1
-Version: 1.0.1
+Version: 1.0.2
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0
 Tags: blog, one-column, two-columns, right-sidebar, left-sidebar, custom-colors, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, custom-logo, custom-header, custom-background
@@ -68,18 +68,20 @@ License: CC0 1.0 Universal (CC0 1.0)
 Source: https://stocksnap.io
 
 Header images
-1. https://stocksnap.io/photo/23H66MTGXA - CC0 1.0 Universal (CC0 1.0)
-2. https://stocksnap.io/photo/Y01VDYAX63 - CC0 1.0 Universal (CC0 1.0)
-3. https://stocksnap.io/photo/DGYLV0KMUY - CC0 1.0 Universal (CC0 1.0)
-4. https://stocksnap.io/photo/UYYDN7X5IS - CC0 1.0 Universal (CC0 1.0)
-5. https://stocksnap.io/photo/UEQ0178WUT - CC0 1.0 Universal (CC0 1.0)
-6. https://stocksnap.io/photo/TNK87N7464 - CC0 1.0 Universal (CC0 1.0)
+1. https://stocksnap.io/photo/Y01VDYAX63 - CC0 1.0 Universal (CC0 1.0)
+2. https://stocksnap.io/photo/DGYLV0KMUY - CC0 1.0 Universal (CC0 1.0)
+3. https://stocksnap.io/photo/UYYDN7X5IS - CC0 1.0 Universal (CC0 1.0)
+4. https://stocksnap.io/photo/UEQ0178WUT - CC0 1.0 Universal (CC0 1.0)
+5. https://stocksnap.io/photo/TNK87N7464 - CC0 1.0 Universal (CC0 1.0)
 
 Content images
 1. https://stocksnap.io/photo/RKS9M8PY0X - CC0 1.0 Universal (CC0 1.0)
 2. https://stocksnap.io/photo/X4AAF4SU9Q - CC0 1.0 Universal (CC0 1.0)
 
 == Changelog ==
+
+= 1.0.2 - 2019-02-22 =
+* Updated screenshot
 
 = 1.0.1 - 2019-02-22 =
 * Updated language file
