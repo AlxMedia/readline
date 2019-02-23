@@ -82,6 +82,9 @@ Content images
 
 = 1.0.3 - 2019-02-23 =
 * Added post hover color styling option
+* Added home/archive/search content width styling option
+* Added page content width styling option
+* Added post content width styling option
 
 = 1.0.2 - 2019-02-22 =
 * Updated screenshot

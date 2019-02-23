@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Readline\n"
-"POT-Creation-Date: 2019-02-23 13:33+0100\n"
+"POT-Creation-Date: 2019-02-23 13:56+0100\n"
 "PO-Revision-Date: 2018-09-21 21:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -585,7 +585,7 @@ msgstr ""
 msgid "Use a boxed layout"
 msgstr ""
 
-#: functions/theme-options.php:595 functions/theme-options.php:696
+#: functions/theme-options.php:595 functions/theme-options.php:737
 msgid "Left Bar"
 msgstr ""
 
@@ -714,47 +714,64 @@ msgid "Tahoma"
 msgstr ""
 
 #: functions/theme-options.php:657
+msgid "Content Width Home/Archive/Search"
+msgstr ""
+
+#: functions/theme-options.php:658 functions/theme-options.php:672
+#: functions/theme-options.php:686
+msgid "Max-width of the container"
+msgstr ""
+
+#: functions/theme-options.php:671
+msgid "Content Width Post"
+msgstr ""
+
+#: functions/theme-options.php:685
+msgid "Content Width Page"
+msgstr ""
+
+#: functions/theme-options.php:699
 msgid "Header Logo Image Max-height"
 msgstr ""
 
-#: functions/theme-options.php:658
+#: functions/theme-options.php:700
 msgid ""
 "Your logo image should have the double height of this to be high resolution"
 msgstr ""
 
-#: functions/theme-options.php:672
+#: functions/theme-options.php:713
 msgid "Primary Color"
 msgstr ""
 
-#: functions/theme-options.php:680
+#: functions/theme-options.php:721
 msgid "Header Top"
 msgstr ""
 
-#: functions/theme-options.php:688
+#: functions/theme-options.php:729
 msgid "Page Title"
 msgstr ""
 
-#: functions/theme-options.php:704
+#: functions/theme-options.php:745
 msgid "Footer Menu"
 msgstr ""
 
-#: functions/theme-options.php:712
+#: functions/theme-options.php:753
 msgid "Footer Bottom"
 msgstr ""
 
-#: functions/theme-options.php:720
+#: functions/theme-options.php:761
 msgid "Post Hover"
 msgstr ""
 
-#: functions/theme-options.php:728
+#: functions/theme-options.php:769
 msgid "Comment Count"
 msgstr ""
 
-#: functions/theme-options.php:736
+#: functions/theme-options.php:777
 msgid "Carousel Next/Prev"
 msgstr ""
 
-#: functions/theme-options.php:744
+#: functions/theme-options.php:785
 msgid "Body"
 msgstr ""
 

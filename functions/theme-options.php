@@ -650,6 +650,48 @@ Kirki::add_field( 'readline_theme', array(
 		'tahoma'				=> esc_html__( 'Tahoma', 'readline' ),
 	),
 ) );
+// Styling: Container Width
+Kirki::add_field( 'readline_theme', array(
+	'type'			=> 'slider',
+	'settings'		=> 'container-width',
+	'label'			=> esc_html__( 'Content Width Home/Archive/Search', 'readline' ),
+	'description'	=> esc_html__( 'Max-width of the container', 'readline' ),
+	'section'		=> 'styling',
+	'default'		=> '1200',
+	'choices'     => array(
+		'min'	=> '1200',
+		'max'	=> '1600',
+		'step'	=> '1',
+	),
+) );
+// Styling: Container Width Post
+Kirki::add_field( 'readline_theme', array(
+	'type'			=> 'slider',
+	'settings'		=> 'container-width-post',
+	'label'			=> esc_html__( 'Content Width Post', 'readline' ),
+	'description'	=> esc_html__( 'Max-width of the container', 'readline' ),
+	'section'		=> 'styling',
+	'default'		=> '720',
+	'choices'     => array(
+		'min'	=> '620',
+		'max'	=> '1280',
+		'step'	=> '1',
+	),
+) );
+// Styling: Container Width Page
+Kirki::add_field( 'readline_theme', array(
+	'type'			=> 'slider',
+	'settings'		=> 'container-width-page',
+	'label'			=> esc_html__( 'Content Width Page', 'readline' ),
+	'description'	=> esc_html__( 'Max-width of the container', 'readline' ),
+	'section'		=> 'styling',
+	'default'		=> '720',
+	'choices'     => array(
+		'min'	=> '620',
+		'max'	=> '1280',
+		'step'	=> '1',
+	),
+) );
 // Styling: Header Logo Max-height
 Kirki::add_field( 'readline_theme', array(
 	'type'			=> 'slider',
@@ -664,7 +706,6 @@ Kirki::add_field( 'readline_theme', array(
 		'step'	=> '1',
 	),
 ) );
-
 // Styling: Primary Color
 Kirki::add_field( 'readline_theme', array(
 	'type'			=> 'color',

@@ -93,13 +93,26 @@ if ( ! function_exists( 'readline_dynamic_css' ) ) {
 			if ( get_theme_mod( 'font' ) == 'tahoma' ) { $styles .= 'body { font-family: Tahoma, sans-serif; }'."\n"; }
 			
 			// container width
-			if ( get_theme_mod('container-width','1120') != '1120' ) {			
+			if ( get_theme_mod('container-width','1200') != '1200' ) {			
 				if ( get_theme_mod( 'boxed' ) ) { 
 					$styles .= '.boxed #wrapper, .container-inner { max-width: '.esc_attr( get_theme_mod('container-width') ).'px; }'."\n";
 				}
 				else {
 					$styles .= '.container-inner { max-width: '.esc_attr( get_theme_mod('container-width') ).'px; }'."\n";
 				}
+			}
+			// post container
+			if ( get_theme_mod('container-width-post','720') != '720' ) {
+				$styles .= '
+body.single .container-inner-inner,
+.hero-container-inner { max-width: '.esc_attr( get_theme_mod('container-width-post') ).'px; }
+				'."\n";
+			}
+			// page container
+			if ( get_theme_mod('container-width-page','720') != '720' ) {
+				$styles .= '
+body.page .container-inner-inner { max-width: '.esc_attr( get_theme_mod('container-width-page') ).'px; }
+				'."\n";
 			}
 			// primary color
 			if ( get_theme_mod('color-1','#b19c5e') != '#b19c5e' ) {
