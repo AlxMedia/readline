@@ -221,7 +221,8 @@ a,
 			if ( get_theme_mod('color-post-hover','') != '' ) {
 				$styles .= '
 .post-featured:hover .post-inner-inner,
-.post-card:hover .post-inner { background: '.esc_attr( get_theme_mod('color-post-hover') ).'; }
+.post-card:hover .post-inner,
+.related-posts li:hover .post { background: '.esc_attr( get_theme_mod('color-post-hover') ).'; }
 .post-hover:hover .post-thumbnail:after { border-color: '.esc_attr( get_theme_mod('color-post-hover') ).' transparent; }
 @media only screen and (min-width: 1281px) {
 	.post-card:hover .post-thumbnail:after { border-color: transparent '.esc_attr( get_theme_mod('color-post-hover') ).'!important; }
