@@ -204,6 +204,18 @@ a,
 #footer-bottom { background: '.esc_attr( get_theme_mod('color-footer-bottom') ).'; }
 				'."\n";
 			}
+			// post hover
+			if ( get_theme_mod('color-post-hover','') != '' ) {
+				$styles .= '
+.post-featured:hover .post-inner-inner,
+.post-card:hover .post-inner { background: '.esc_attr( get_theme_mod('color-post-hover') ).'; }
+.post-hover:hover .post-thumbnail:after { border-color: '.esc_attr( get_theme_mod('color-post-hover') ).' transparent; }
+@media only screen and (min-width: 1281px) {
+	.post-card:hover .post-thumbnail:after { border-color: transparent '.esc_attr( get_theme_mod('color-post-hover') ).'!important; }
+}
+.post-hover:hover .entry.excerpt { color: rgba(255,255,255,0.6); }
+				'."\n";
+			}
 			// page title
 			if ( get_theme_mod('color-page-title','') != '' ) {
 				$styles .= '

@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Readline\n"
-"POT-Creation-Date: 2019-02-22 15:18+0100\n"
+"POT-Creation-Date: 2019-02-23 13:33+0100\n"
 "PO-Revision-Date: 2018-09-21 21:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -743,14 +743,18 @@ msgid "Footer Bottom"
 msgstr ""
 
 #: functions/theme-options.php:720
-msgid "Comment Count"
+msgid "Post Hover"
 msgstr ""
 
 #: functions/theme-options.php:728
-msgid "Carousel Next/Prev"
+msgid "Comment Count"
 msgstr ""
 
 #: functions/theme-options.php:736
+msgid "Carousel Next/Prev"
+msgstr ""
+
+#: functions/theme-options.php:744
 msgid "Body"
 msgstr ""
 
@@ -864,6 +868,6 @@ msgstr ""
 msgid "Pages:"
 msgstr ""
 
-#: single.php:44
+#: single.php:45
 msgid "Tags:"
 msgstr ""

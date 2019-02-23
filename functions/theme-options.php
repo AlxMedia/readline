@@ -713,6 +713,14 @@ Kirki::add_field( 'readline_theme', array(
 	'section'		=> 'styling',
 	'default'		=> '',
 ) );
+// Styling: Post Hover
+Kirki::add_field( 'readline_theme', array(
+	'type'			=> 'color',
+	'settings'		=> 'color-post-hover',
+	'label'			=> esc_html__( 'Post Hover', 'readline' ),
+	'section'		=> 'styling',
+	'default'		=> '',
+) );
 // Styling: Comment Count
 Kirki::add_field( 'readline_theme', array(
 	'type'			=> 'color',

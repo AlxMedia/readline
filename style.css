@@ -1,7 +1,7 @@
 /*
 Theme Name: Readline
 Theme URI: http://alxmedia.se/themes/readline/
-Version: 1.0.2
+Version: 1.0.3
 Description: <a href="http://alxmedia.se/themes/readline/">Readline</a> is a flexible magazine and personal blog theme with plenty of options. Optimized for all devices, this theme will stand out with a unique posts page that will inspire people to read. It includes a featured posts carousel. Set the theme to any accent color you wish. Use a sidebar to the left or right, or disable it entirely - it is all up to you.
 Author: Alexander Agnarson
 Author URI: http://alxmedia.se
@@ -799,8 +799,8 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .post-hover:hover .post-comments { opacity: 1; top: 0; }
 .post-hover:hover .post-thumbnail:after { border-color: #000 transparent; }
 .post-hover:hover .post-comments { opacity: 1; }
-.post-hover:hover .post-title a { color: #fff; border-bottom: 2px solid #333; }
-.post-hover:hover .post-date { color: #777; }
+.post-hover:hover .post-title a { color: #fff; border-bottom: 2px solid rgba(255,255,255,0.2); }
+.post-hover:hover .post-date { color: rgba(255,255,255,0.5); }
 .post-hover:hover .post-inner-bottom { background: #222; border-top: 1px solid #000; }
 
 /*  post : search
