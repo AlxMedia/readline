@@ -20,7 +20,7 @@ Readline is a flexible magazine and personal blog theme with plenty of options. 
 
 == Documentation ==
 
-http://alxmedia.se/documentation/
+http://alx.media/documentation/
 
 == Copyright ==
 
