@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Readline\n"
-"POT-Creation-Date: 2019-02-23 13:56+0100\n"
+"POT-Creation-Date: 2019-03-18 15:00+0100\n"
 "PO-Revision-Date: 2018-09-21 21:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -129,23 +129,23 @@ msgstr ""
 msgid "Footer 4"
 msgstr ""
 
-#: functions.php:723
+#: functions.php:692
 msgid "Alx Extensions"
 msgstr ""
 
-#: functions.php:727
+#: functions.php:696
 msgid "Meta Box"
 msgstr ""
 
-#: functions.php:731
+#: functions.php:700
 msgid "Regenerate Thumbnails"
 msgstr ""
 
-#: functions.php:735
+#: functions.php:704
 msgid "WP-PageNavi"
 msgstr ""
 
-#: functions.php:739
+#: functions.php:708
 msgid "Responsive Lightbox"
 msgstr ""
 

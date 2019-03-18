@@ -202,42 +202,11 @@ if ( ! function_exists( 'readline_styles' ) ) {
 	function readline_styles() {
 		wp_enqueue_style( 'readline-style', get_stylesheet_uri() );
 		if ( get_theme_mod('responsive','on') =='on' ) { wp_enqueue_style( 'readline-responsive', get_template_directory_uri().'/responsive.css' ); }
-		if ( get_theme_mod('dark','off') == 'on' ) { wp_enqueue_style( 'readline-dark', get_template_directory_uri().'/dark.css' ); }
 		wp_enqueue_style( 'readline-font-awesome', get_template_directory_uri().'/fonts/font-awesome.min.css' );
 	}
 	
 }
 add_action( 'wp_enqueue_scripts', 'readline_styles' );
-
-
-/*  Light & dark mode switch
-/* ------------------------------------ */
-if ( ! function_exists( 'readline_switch' ) ) {
-
-	function readline_switch() {
-
-		if ( get_theme_mod('light-dark-switch','off') =='on' ) { 
-		
-			$current_mode = 'light';
-			if ( isset( $_COOKIE['theme_mode'] ) && ! empty( $_COOKIE['theme_mode'] ) ) {
-				$current_mode = $_COOKIE['theme_mode'];
-			}
-			if ( in_array( $current_mode, array( 'light', 'dark' ) ) ) {
-				wp_enqueue_style( 'readline-scheme', get_template_directory_uri() . '/' . esc_attr( $current_mode ) . '.css' );
-			}
-			wp_enqueue_script( 'readline-cookie', get_template_directory_uri() . '/js/cookie.min.js', array(), '2.2.0', true );
-			wp_enqueue_script( 'readline-switch', get_template_directory_uri() . '/js/switch.js', array( 'jquery' ), '2.0', true );
-			$data = array(
-				'template_directory_uri'   => get_template_directory_uri(),
-				'stylesheet_directory_uri' => get_stylesheet_directory_uri(),
-				);
-			wp_localize_script( 'readline-switch', 'readlineObject', $data );
-			
-		}
-	}
-
-}
-add_action( 'wp_enqueue_scripts', 'readline_switch' );
 
 
 /* ------------------------------------------------------------------------- *
@@ -767,47 +736,6 @@ add_action('woocommerce_after_main_content', 'readline_wc_wrapper_end', 10);
 /* ------------------------------------------------------------------------- *
  *  Frontend scripts
 /* ------------------------------------------------------------------------- */	
-
-/*  Flexslider featured
-/* ------------------------------------ */
-if ( ! function_exists( 'readline_flexslider_featured' ) ) {
-	
-	function readline_flexslider_featured() {
-
-		if( is_home() && !is_paged() && ( get_theme_mod('featured-posts-count','0') !='0') ) {
-			
-			$script = '
-			jQuery(document).ready(function(){
-				var firstImage = jQuery("#flexslider-featured").find("img").filter(":first"),
-				   checkforloaded = setInterval(function() {
-					   var image = firstImage.get(0);
-					   if (image.complete || image.readyState == "complete" || image.readyState == 4) {
-						   clearInterval(checkforloaded);
-						   jQuery("#flexslider-featured").flexslider({
-							   animation: "slide",
-								useCSS: false, // Fix iPad flickering issue
-								directionNav: true,
-								controlNav: true,
-								pauseOnHover: true,
-								animationSpeed: 400,
-								smoothHeight: true,
-								touch: false,
-								slideshow: false,
-								slideshowSpeed: 7000,
-						   });
-					   }
-				   }, 20);
-			   });
-			';
-
-			wp_add_inline_script( 'readline-scripts', $script );
-			
-		}
-	}
-	
-}
-add_action( 'wp_enqueue_scripts', 'readline_flexslider_featured' );
-	
 
 /*  Flexslider gallery post format
 /* ------------------------------------ */
