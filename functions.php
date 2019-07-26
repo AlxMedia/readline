@@ -691,10 +691,6 @@ if ( ! function_exists( 'readline_plugins' ) ) {
 				array(
 					'name' => esc_html__( 'WP-PageNavi', 'readline' ),
 					'slug' => 'wp-pagenavi',
-				),
-				array(
-					'name' => esc_html__( 'Responsive Lightbox', 'readline' ),
-					'slug' => 'responsive-lightbox',
 				)
 			);	
 			tgmpa( $plugins );
