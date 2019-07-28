@@ -1459,7 +1459,7 @@ li #reply-title { font-size: 0; margin: 0!important; padding: 0; height: 0; bord
 /* level 2 */
 .child-menu > li > ul { border-top: 1px solid #222; border-bottom: 1px solid #222; }
 .child-menu > li > ul > li > a { font-size: 15px; border-bottom: 1px solid #222; border-left: 1px solid #222; border-right: 1px solid #222; padding: 11px 20px; }
-.child-menu > li > ul > li > a:before { font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f067"; font-weight: normal; font-size: 18px; margin-right: 8px; opacity: 0.3; }
+.child-menu > li > ul > li > a:before { font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f067"; font-size: 18px; margin-right: 8px; opacity: 0.3; }
 
 /* level 3 */
 .child-menu > li ul ul { padding: 6px 0; border-left: 10px solid #222; border-right: 1px solid #222; border-bottom: 1px solid #222; }
