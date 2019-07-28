@@ -15,13 +15,13 @@
 						<?php echo get_avatar(get_the_author_meta('user_email'),'96'); ?>
 					</a>
 				</div>
-				<?php if ( has_post_format('video') && !is_sticky() ) echo'<span class="thumb-icon"><i class="fa fa-play"></i></span>'; ?>
-				<?php if ( has_post_format('audio') && !is_sticky() ) echo'<span class="thumb-icon"><i class="fa fa-volume-up"></i></span>'; ?>
-				<?php if ( is_sticky() ) echo'<span class="thumb-icon"><i class="fa fa-star"></i></span>'; ?>
+				<?php if ( has_post_format('video') && !is_sticky() ) echo'<span class="thumb-icon"><i class="fas fa-play"></i></span>'; ?>
+				<?php if ( has_post_format('audio') && !is_sticky() ) echo'<span class="thumb-icon"><i class="fas fa-volume-up"></i></span>'; ?>
+				<?php if ( is_sticky() ) echo'<span class="thumb-icon"><i class="fas fa-star"></i></span>'; ?>
 			</a>
 			
 			<?php if ( comments_open() && ( get_theme_mod( 'comment-count','on' ) == 'on' ) ): ?>
-				<a class="post-comments" href="<?php comments_link(); ?>"><span><i class="fa fa-comments-o"></i><?php comments_number( '0', '1', '%' ); ?></span></a>
+				<a class="post-comments" href="<?php comments_link(); ?>"><span><i class="fas fa-comments"></i><?php comments_number( '0', '1', '%' ); ?></span></a>
 			<?php endif; ?>
 			
 		</div><!--/.post-thumbnail-->
@@ -33,7 +33,7 @@
 			</h2><!--/.post-title-->
 			
 			<div class="post-date">
-				<i class="fa fa-clock-o"></i><?php the_time( get_option('date_format') ); ?>
+				<i class="far fa-clock"></i><?php the_time( get_option('date_format') ); ?>
 			</div>
 			
 		</div><!--/.post-inner-inner-->

@@ -11,7 +11,7 @@
 				<div class="hero-byline group">
 					<div class="hero-author-image"><?php echo get_avatar(get_the_author_meta('user_email'),'128'); ?></div>
 					<div class="hero-author"><?php esc_html_e('by','readline'); ?> <?php the_author_posts_link(); ?></div>
-					<div class="hero-date"><i class="fa fa-clock-o"></i> <?php the_time( get_option('date_format') ); ?></div>
+					<div class="hero-date"><i class="far fa-clock"></i> <?php the_time( get_option('date_format') ); ?></div>
 				</div>
 				</div>
 			</header>
