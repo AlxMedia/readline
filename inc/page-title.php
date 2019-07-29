@@ -51,7 +51,7 @@
 		<?php elseif ( has_post_format('chat') ): ?>
 			<h1><i class="fas fa-comments"></i><?php esc_html_e('Type:','readline'); ?> <span><?php esc_html_e('Chat','readline'); ?></span></h1>
 		<?php elseif ( has_post_format('gallery') ): ?>
-			<h1><i class="fas fa-picture"></i><?php esc_html_e('Type:','readline'); ?> <span><?php esc_html_e('Gallery','readline'); ?></span></h1>
+			<h1><i class="fas fa-image"></i><?php esc_html_e('Type:','readline'); ?> <span><?php esc_html_e('Gallery','readline'); ?></span></h1>
 		<?php elseif ( has_post_format('image') ): ?>
 			<h1><i class="fas fa-camera"></i><?php esc_html_e('Type:','readline'); ?> <span><?php esc_html_e('Image','readline'); ?></span></h1>
 		<?php elseif ( has_post_format('link') ): ?>
@@ -61,7 +61,7 @@
 		<?php elseif ( has_post_format('status') ): ?>
 			<h1><i class="fas fa-bullhorn"></i><?php esc_html_e('Type:','readline'); ?> <span><?php esc_html_e('Status','readline'); ?></span></h1>
 		<?php elseif ( has_post_format('video') ): ?>
-			<h1><i class="fas fa-video-camera"></i><?php esc_html_e('Type:','readline'); ?> <span><?php esc_html_e('Video','readline'); ?></span></h1>
+			<h1><i class="fas fa-video"></i><?php esc_html_e('Type:','readline'); ?> <span><?php esc_html_e('Video','readline'); ?></span></h1>
 	
 	<?php else: ?>
 		<h2><?php the_title(); ?></h2>
