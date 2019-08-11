@@ -2,14 +2,14 @@
 Contributors: alxmedia
 Requires at least: 5.0
 Tested up to: 5.1
-Version: 1.1.0
+Version: 1.1.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0
 Tags: blog, one-column, two-columns, right-sidebar, left-sidebar, custom-colors, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, custom-logo, custom-header, custom-background
 
 == Description ==
 
-Readline is a flexible magazine and personal blog theme with plenty of options. Optimized for all devices, this theme will stand out with a unique posts page that will inspire people to read. It includes a featured posts carousel. Set the theme to any accent color you wish. Use a sidebar to the left or right, or disable it entirely - it is all up to you.
+Readline is a flexible magazine and personal blog theme with plenty of options. Optimized for all devices, this theme will stand out with a unique posts page that will inspire people to read. It includes a featured posts carousel. Set the theme to any accent color you wish. Use a sidebar to the left or right, or disable it entirely - it is all up to you. Demo: http://demo.alx.media/x/?theme=Readline
 
 == Installation ==
 
@@ -79,6 +79,9 @@ Content images
 2. https://stocksnap.io/photo/X4AAF4SU9Q - CC0 1.0 Universal (CC0 1.0)
 
 == Changelog ==
+
+= 1.1.1 - 2019-08-11 =
+* Updated theme description
 
 = 1.1.0 - 2019-07-29 =
 * Fixed Font Awesome square size
