@@ -1,7 +1,7 @@
 /*
 Theme Name: Readline
 Theme URI: http://alx.media/themes/readline/
-Version: 1.1.2
+Version: 1.1.1
 Description: <a href="http://alx.media/themes/readline/">Readline</a> is a flexible magazine and personal blog theme with plenty of options. Optimized for all devices, this theme will stand out with a unique posts page that will inspire people to read. It includes a featured posts carousel. Set the theme to any accent color you wish. Use a sidebar to the left or right, or disable it entirely - it is all up to you. Demo: http://demo.alx.media/x/?theme=Readline
 Author: Alexander Agnarson
 Author URI: http://alx.media
@@ -1431,8 +1431,6 @@ li #reply-title { font-size: 0; margin: 0!important; padding: 0; height: 0; bord
 .logged-in #reply-title { margin-bottom: 20px; }
 .logged-in #commentform p.comment-form-comment { margin-top: 10px; }
 .logged-in #commentform p.comment-form-comment label { display: none; }
-#commentform .comment-form-cookies-consent { padding: 10px 0; }
-#commentform .comment-form-cookies-consent label { display: inline; }
 
 
 /* ------------------------------------------------------------------------- *

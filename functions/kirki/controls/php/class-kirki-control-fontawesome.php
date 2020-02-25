@@ -1,9 +1,6 @@
 <?php
 /**
- * Customizer Control: custom.
- *
- * Creates a new custom control.
- * Custom controls accept raw HTML/JS.
+ * Customizer Control: kirki-fontawesome.
  *
  * @package     Kirki
  * @subpackage  Controls
@@ -18,9 +15,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 /**
- * The "custom" control allows you to add any raw HTML.
+ * Select control.
  */
-class Kirki_Control_Custom extends Kirki_Control_Base {
+class Kirki_Control_FontAwesome extends Kirki_Control_Base {
 
 	/**
 	 * The control type.
@@ -28,7 +25,25 @@ class Kirki_Control_Custom extends Kirki_Control_Base {
 	 * @access public
 	 * @var string
 	 */
-	public $type = 'kirki-custom';
+	public $type = 'kirki-fontawesome';
+
+	/**
+	 * Enqueue control related scripts/styles.
+	 *
+	 * @access public
+	 */
+	public function enqueue() {
+		parent::enqueue();
+
+		wp_enqueue_script( 'kirki-fontawesome-font', 'https://use.fontawesome.com/30858dc40a.js', array(), '4.0.7', false );
+
+		ob_start();
+		$json_path = wp_normalize_path( Kirki::$path . '/assets/vendor/fontawesome/fontawesome.json' );
+		include $json_path; // phpcs:ignore WPThemeReview.CoreFunctionality.FileInclude
+		$font_awesome_json = ob_get_clean();
+
+		wp_localize_script( 'kirki-script', 'fontAwesomeJSON', $font_awesome_json );
+	}
 
 	/**
 	 * An Underscore (JS) template for this control's content (but not its container).
@@ -45,16 +60,7 @@ class Kirki_Control_Custom extends Kirki_Control_Base {
 		<label>
 			<# if ( data.label ) { #><span class="customize-control-title">{{{ data.label }}}</span><# } #>
 			<# if ( data.description ) { #><span class="description customize-control-description">{{{ data.description }}}</span><# } #>
-			<?php
-				/**
-				 * The value is defined by the developer in the field configuration as 'default'.
-				 * There is no user input on this field, it's a raw HTML/JS field and we do not sanitize it.
-				 * Do not be alarmed, this is not a security issue.
-				 * In order for someone to be able to change this they would have to have access to your filesystem.
-				 * If that happens, they can change whatever they want anyways. This field is not a concern.
-				 */
-			?>
-			{{{ data.value }}}
+			<select {{{ data.inputAttrs }}} {{{ data.link }}}></select>
 		</label>
 		<?php
 	}
