@@ -201,7 +201,7 @@ if ( ! function_exists( 'readline_styles' ) ) {
 	
 	function readline_styles() {
 		wp_enqueue_style( 'readline-style', get_stylesheet_uri() );
-		if ( get_theme_mod('responsive','on') =='on' ) { wp_enqueue_style( 'readline-responsive', get_template_directory_uri().'/responsive.css' ); }
+		wp_enqueue_style( 'readline-responsive', get_template_directory_uri().'/responsive.css' );
 		wp_enqueue_style( 'readline-font-awesome', get_template_directory_uri().'/fonts/all.min.css' );
 	}
 	
