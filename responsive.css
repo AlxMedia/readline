@@ -140,8 +140,9 @@
 	.social-links .social-tooltip:hover:after,
 	.social-links .social-tooltip:hover:before { display: none; }
 	
-	.toggle-search { position: absolute; padding: 12px; left: 0; right: auto; top: -50px; bottom: auto; border-bottom: 0;  }
-	.search-expand { padding: 7px; background: transparent; bottom: auto; right: 50px; left: 40px; top: -50px; width: auto; z-index: 99; box-shadow: none; }
+	.toggle-search { position: absolute; width: 60px; padding: 12px; left: 0; right: auto; top: -50px; bottom: auto; border-bottom: 0;  }
+	.toggle-search.active { padding-top: 12px; padding-bottom: 12px; }
+	.search-expand { padding: 7px; background: transparent; bottom: auto; right: 60px; left: 50px; top: -52px; width: auto; z-index: 99; box-shadow: none; }
 	
 	#nav-mobile .nav,
 	#nav-header .nav { padding-bottom: 50px; }

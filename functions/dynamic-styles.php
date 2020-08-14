@@ -167,20 +167,6 @@ a,
 .wp-pagenavi a:hover,
 .wp-pagenavi a:active,
 .wp-pagenavi span.current { border-bottom-color: '.esc_attr( get_theme_mod('color-1') ).';  }
-
-@media only screen and (min-width: 720px) {
-
-}
-@media only screen and (max-width: 719px) {
-	#nav-mobile .nav li > a:hover,
-	#nav-mobile .nav li.current_page_item > a, 
-	#nav-mobile .nav li.current-menu-item > a,
-	#nav-mobile .nav li.current-post-parent > a,
-	#nav-header .nav li > a:hover,
-	#nav-header .nav li.current_page_item > a, 
-	#nav-header .nav li.current-menu-item > a,
-	#nav-header .nav li.current-post-parent > a	{ color: '.esc_attr( get_theme_mod('color-1') ).'; }
-}	
 				'."\n";
 			}
 			// header top
@@ -211,7 +197,8 @@ a,
 			// footer menu
 			if ( get_theme_mod('color-footer-menu','') != '' ) {
 				$styles .= '
-#nav-footer.nav-container,
+#footer .nav-menu:not(.mobile),
+#footer .nav-menu.mobile,
 #footer-bottom #back-to-top { background: '.esc_attr( get_theme_mod('color-footer-menu') ).'; }
 				'."\n";
 			}
