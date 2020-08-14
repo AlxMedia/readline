@@ -1,7 +1,7 @@
 /*
 Theme Name: Readline
 Theme URI: http://alx.media/themes/readline/
-Version: 1.1.5
+Version: 1.1.6
 Requires at least: 5.0
 Requires PHP: 5.6
 Tested up to: 5.5
@@ -669,7 +669,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .nav-menu:not(.mobile) ul ul li.current_page_item > span > a, 
 .nav-menu:not(.mobile) ul ul li.current-menu-item > span > a, 
 .nav-menu:not(.mobile) ul ul li.current-menu-ancestor > span > a, 
-.nav-menu:not(.mobile) ul ul li.current-post-parent > span > a { color: #aaa; }
+.nav-menu:not(.mobile) ul ul li.current-post-parent > span > a { color: #333; }
 
 .nav-menu.mobile { background: #fff; border-top: 1px solid #f2f2f2; }
 .nav-menu.mobile button.active .svg-icon { fill: #333; }
@@ -692,13 +692,17 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 #header .nav-menu:not(.mobile) li.current-menu-item > span, 
 #header .nav-menu:not(.mobile) li.current-menu-ancestor > span, 
 #header .nav-menu:not(.mobile) li.current-post-parent > span { border-color: #333; }
+#header .nav-menu:not(.mobile) ul ul li.current_page_item > span > a, 
+#header .nav-menu:not(.mobile) ul ul li.current-menu-item > span > a, 
+#header .nav-menu:not(.mobile) ul ul li.current-menu-ancestor > span > a, 
+#header .nav-menu:not(.mobile) ul ul li.current-post-parent > span > a { color: #333; }
 
 #header .nav-menu:not(.mobile) .menu ul { background: #fff; top: 100%; box-shadow: 0 2px 2px rgba(0,0,0,0.15); color: #666; }
 #header .nav-menu:not(.mobile) .menu ul:after { border-bottom-color: transparent; }
 #header .nav-menu:not(.mobile) .menu ul ul:after { border-bottom-color: transparent; }
 #header .nav-menu:not(.mobile) .menu ul ul:after { border-right-color: #fff; }
 #header .nav-menu-dropdown-left .nav-menu:not(.mobile) .menu ul ul:after { border-left-color: #fff; }
-#header .nav-menu:not(.mobile) .menu ul a { font-size: 13px; color: #999; border-bottom: 1px solid #f2f2f2; }
+#header .nav-menu:not(.mobile) .menu ul a { font-size: 13px; color: #777; border-bottom: 1px solid #f2f2f2; }
 #header .nav-menu:not(.mobile) .menu ul li:last-child a { border-bottom: 0; }
 #header .nav-menu:not(.mobile) ul ul a { transition: all 0.3s ease; }
 #header .nav-menu:not(.mobile) ul ul a:hover { color: #333; }
