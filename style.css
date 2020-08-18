@@ -1,7 +1,7 @@
 /*
 Theme Name: Readline
 Theme URI: http://alx.media/themes/readline/
-Version: 1.1.8
+Version: 1.1.9
 Requires at least: 5.0
 Requires PHP: 5.6
 Tested up to: 5.5
@@ -538,10 +538,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 
 /*  header : search
 /* ------------------------------------ */
-.toggle-search { background: transparent; float: right; border: 0; border-bottom: 1px solid #eee; width: 70px; color: #333; text-align: center; font-size: 20px; line-height: 24px; cursor: pointer; padding: 17px 0 17px; margin: 0; display: block; }
-@media only screen and (max-width: 719px) {
-	.toggle-search { outline: none; }
-}
+.toggle-search { background: transparent; outline: none; float: right; border: 0; border-bottom: 1px solid #eee; width: 70px; color: #333; text-align: center; font-size: 20px; line-height: 24px; cursor: pointer; padding: 17px 0 17px; margin: 0; display: block; }
 .search-expand { display: none; background: #fff; padding: 13px 13px 13px 0; position: absolute; top: 0; left: 70px; width: 340px; box-shadow: 1px 1px 1px rgba(0,0,0,0.1), 3px 3px 3px rgba(0,0,0,0.04); }
 .search-expand-inner {  }
 .search-expand .themeform input { background: #f2f2f2; width: 100%; border: 1px solid #eee; }
