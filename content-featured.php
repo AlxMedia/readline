@@ -11,8 +11,8 @@
 				<?php endif; ?>
 				<div class="post-category"><?php the_category(' / '); ?></div>
 				<div class="post-author-image">
-					<a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ), get_the_author_meta( 'user_nicename' ) ); ?>">
-						<?php echo get_avatar(get_the_author_meta('user_email'),'96'); ?>
+					<a href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ); ?>">
+						<?php echo get_avatar( get_the_author_meta( 'ID' ), '64' ); ?>
 					</a>
 				</div>
 				<?php if ( has_post_format('video') && !is_sticky() ) echo'<span class="thumb-icon"><i class="fas fa-play"></i></span>'; ?>

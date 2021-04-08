@@ -85,6 +85,9 @@ Content images
 
 == Changelog ==
 
+= 1.2.2 - 2021-04-08 =
+* Fixed: avatar image and avatar author link
+
 = 1.2.1 - 2021-03-03 =
 * Fixed: mobile menu tabbing will enter in the menu even when it's closed
 * Fixed: add styles to focus states of menu and search
