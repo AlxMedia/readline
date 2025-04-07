@@ -8,7 +8,7 @@ Tags: blog, news, entertainment, one-column, two-columns, right-sidebar, left-si
 
 == Description ==
 
-Readline is a flexible magazine and personal blog theme with plenty of options. Optimized for all devices, this theme will stand out with a unique posts page that will inspire people to read. It includes a featured posts carousel. Set the theme to any accent color you wish. Use a sidebar to the left or right, or disable it entirely - it is all up to you. Demo: http://demo.alx.media/x/?theme=Readline
+Readline is a flexible magazine and personal blog theme with plenty of options. Optimized for all devices, this theme will stand out with a unique posts page that will inspire people to read. It includes a featured posts carousel. Set the theme to any accent color you wish. Use a sidebar to the left or right, or disable it entirely - it is all up to you. Demo: https://demo.agnarson.com/?theme=Readline
 
 == Installation ==
 
@@ -19,7 +19,7 @@ Readline is a flexible magazine and personal blog theme with plenty of options. 
 
 == Documentation ==
 
-http://alx.media/documentation/
+https://agnarson.com/documentation/
 
 == Copyright ==
 
